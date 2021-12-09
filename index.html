@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Repeatition of HTML and CSS">
+    <title>sample webpage</title>
+    <link rel="stylesheet" href="../dist/css/index.css">
+</head>
+<body>
+
+    <div id="container">
+        <div class="heading">
+            <h1>My To do list</h1>
+            <p>This is a list of tasks I should attend </p>  
+            <p>on <span id="displaydate"></span></p>  
+        </div>
+
+        <ul id="list">
+            <li>  
+                <span>Morning physical exercises</span>
+                <span class="delete">Delete</span>
+            </li>
+            <li> 
+                <span>Acomplish my Js Project</span> 
+                <span class="delete">Delete</span>
+            </li>
+            <li> 
+                <span>Prepare Luch</span> 
+                <span class="delete">Delete</span>
+            </li>
+            <li> 
+                <span> Reading Definitive Js</span> 
+                <span class="delete">Delete</span>
+            </li>
+            <li> 
+                <span>Rest during evening</span> 
+                <span class="delete">Delete</span>
+            </li>
+        </ul>
+
+        <form id="add_movie">
+            <input type="text" placeholder="Add your dutie...">
+            <button >Add</button>
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
