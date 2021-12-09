@@ -1,0 +1,159 @@
+
+body{
+    background: url(/images/nasa.jpg);
+    background-position: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#container{
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+    border: 1px solid black;
+    background: url(/images/jason.jpg);
+    background-size: 100%;
+    
+    
+    .heading{
+        text-align: center;
+        font-size: 2vw;
+        font-variant: small-caps;
+        line-height: 1px;
+        color: #000;
+        border: 1px solid #000;
+        background: url(/images/claudio.jpg);
+    }
+
+    ul{
+        list-style-type: none;
+        margin-left: -20px;
+
+        li{
+            margin: 5px;
+            padding: 5px;
+
+            .delete{
+                float: right;
+                background:url(/images/claudio.jpg);
+                padding: 2px;
+                border-width: 0px;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            .delete:active{
+                    font-size: 0.9em;
+                }
+        }
+
+        li:hover{
+            border-left: 1px solid blue;
+            border-bottom: 1px solid blue;
+            border-radius: 4px;
+        }
+    }
+
+    form{
+
+        padding: 8px 0px;
+        list-style-type: none;
+        margin: 0px 30px;
+
+        input{
+            width: 77.5%;
+            outline: none;
+            border-radius: 4px;
+            border-width: 0px;
+            padding: 4px 6px;
+        }
+
+        button{
+            padding: 5px;
+            border-radius: 50%;
+            border-width: 0px;
+            cursor: pointer;
+        }
+
+        button:active{
+            font-size: 0.7em;
+        }
+        
+    }
+}
+
+#demo{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+    label{
+        text-align: left;
+    }
+    input{
+        width: 100%;
+    }
+
+
+    .row{
+        display: block;
+        padding: 5px;
+        width: 100%;
+        
+        .col25{
+            width: 25%;
+            padding: 8px 12px;
+            font-size: 20px;
+        }
+        
+        .col75{
+            width: 75%;
+            padding: 8px 12px;
+            font-size: 20px;
+            outline: none;
+
+        }
+    }
+    
+}
